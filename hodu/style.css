@@ -1,19 +1,23 @@
 body {
+  width: 1920px;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f1ec;
+  background-color: #ffffff;
+}
+
+header, #hero, #location {
+  padding: 0 320px; /* 좌우 여백을 동일하게 설정 */
 }
 
 header {
-  width: 1920px;
-  height: 102px;
   position: absolute;
   top: 2px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0;
+  background-color: #f4f1ec;
 }
 
 .logo {
@@ -76,9 +80,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px;
+  padding: 50px 320px;
   height: 800px;
-  margin-left: 275px;
   background-color: #f4f1ec;
 }
 
@@ -105,7 +108,7 @@ header {
 }
 
 #gallery {
-  padding: 50px;
+  padding: 50px 320px;
   text-align: center;
   background-color: #ffffff;
 }
@@ -121,15 +124,14 @@ header {
   width: 660px;
   height: 390px;
   border-radius: 10px;
-  margin-left: 320px;
 }
 
 .gallery-content {
   width: 510px;
   height: 135px;
+  align-items: center;
   text-align: left;
-  padding-left: 20px;
-  margin-right: 300px;
+  padding-left: 109px;
 }
 
 .gallery-content h2 {
@@ -142,23 +144,35 @@ header {
 }
 
 .gallery-subtitle {
+  display: flex;
+  align-items: center;
   color: #D97652;
+  width: 875px;
+  height: 60px;
   font-size: 48px;
   text-align: center;
+  padding: 0px 202px;
 }
 
 .gallery-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  width: 1278px;
+  gap: 72px;
   justify-content: center;
 }
 
 .gallery-grid img {
-  width: 200px;
-  height: 200px;
+  width: 378px;
+  height: 378px;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.continue-exploring {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .show-more-button {
@@ -174,4 +188,75 @@ header {
 
 .show-more-button:hover {
   background-color: #bf4a2b;
+}
+
+
+#location {
+  padding: 50px 320px;
+
+}
+
+#location h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#location p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.map-container {
+  width: 1278px;
+  height: 520px;
+  display: flex;
+  justify-content: center;
+}
+
+.map-container div {
+  width: 1278px;
+  height: 520px;
+}
+
+.map-container img {
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.footer-img {
+  width: 1920px;
+  height: 320px;
+}
+
+
+footer {
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 320px;
+  background-color: #ffffff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-logo {
+  width: 130px;
+  height: 40px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links a img {
+  width: 40px;
+  height: 40px;
 }
