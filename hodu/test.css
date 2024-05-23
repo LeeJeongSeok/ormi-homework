@@ -1,0 +1,312 @@
+#app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2E9D8;
+}
+
+.logo-img {
+  width: 130px;
+  height: 40px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+  color: black;
+}
+
+.download-button {
+  width: 140px;
+  height: 50px;
+  border: 0;
+  border-radius: 40px;
+  background-color: #D97652;
+  color: #FFFFFF;
+}
+
+/*	section1 start */
+.header-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2E9D8;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.header-content h1 {
+  width: 695px;
+  height: 120px;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.header-content p {
+  width: 420px;
+  height: 86px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.header-content-img {
+  max-width: 415px;
+  max-height: 766px;
+}
+
+/*	section2 start*/
+.description-content {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 120px;
+  gap: 110px;
+}
+
+.description-content img {
+  width: 660px;
+  height: 390px;
+  border-radius: 30px;
+}
+
+.description-content .text-layout h1{
+  color: #000000;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+.description-content .text-layout p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-bottom: 88px;
+}
+
+.text-container h1 {
+  color: #D97652;
+  font-size: 48px;
+  text-align: center;
+}
+
+.text-container p {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text-container .highlight {
+  color: #D97652;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+  gap: 100px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.gallery-container .gallery-grid {
+  display: grid;
+  gap: 72px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery-container .gallery-grid .gallery-grid-img {
+  width: 378px;
+  height: 378px;
+  border-radius: 30px;
+}
+
+.gallery-container .gallery-text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+}
+
+.gallery-container .gallery-text p {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 68px;
+  gap: 20px;
+}
+
+.location-container > .location-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.location-container .location-text p {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.location-container .location-text span {
+  color: #606367;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.map-container {
+  width: 100%;
+  max-width: 1278px;
+  height: 100%;
+  max-height: 520px;
+  display: flex;
+  justify-content: center;
+}
+
+.map-container div {
+  width: 1278px;
+  height: 520px;
+}
+
+.subscribe-container {
+  width: 1280px;
+  height: 201px;
+  background-color: #2b3a42;
+  border-radius: 20px;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+}
+
+.subscribe-content {
+  color: #fff;
+}
+
+.subscribe-content h2 {
+  margin: 0;
+  font-size: 32px; /* 448x45 비율을 맞추기 위해 */
+  font-weight: bold;
+}
+
+.subscribe-content p {
+  margin: 10px 0 0 0;
+  font-size: 16px; /* 471x36 비율을 맞추기 위해 */
+}
+
+.subscribe-form {
+  width: 530px;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px; /* 둥근 테두리 */
+  padding: 5px 10px;
+}
+
+.subscribe-form-button {
+  margin-left: 150px;
+}
+
+.subscribe-content img {
+  width: 24px;
+  height: 24px;
+}
+
+.subscribe-form input[type="email"] {
+  width: 184px;
+  height: 20px;
+  border: none;
+  background-color: #fff;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 60px 60px 60px 60px;
+  outline: none;
+}
+
+
+.subscribe-form button {
+  background-color: #d26344;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  justify-content: flex-end;
+  border-radius: 40px 40px 40px 40px;
+  cursor: pointer;
+  width: 135px;
+  height: 50px; /* 135x50 비율을 맞추기 위해 */
+}
+
+.email-input-label {
+  position: relative;
+}
+
+.email-input-label > .input-email-icon {
+  position: absolute;
+  left: 26px;
+  top: -3.5px;
+}
+
+.email-input-label > .input-submit-button {
+  position: absolute;
+  top: -15px;
+  right: 6px;
+}
+
+footer {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footer-container .social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
