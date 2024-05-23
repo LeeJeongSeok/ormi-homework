@@ -2,6 +2,8 @@
   width: 100%;
   height: 340px;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url("../../img/cat_9.png");
   margin-top: 181px;
   background-color: #F2E9D8;
