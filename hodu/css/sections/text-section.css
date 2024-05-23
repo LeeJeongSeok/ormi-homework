@@ -1,0 +1,27 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-bottom: 88px;
+}
+
+.text-container h1 {
+  color: #D97652;
+  font-size: 48px;
+  font-family: Pretendard;
+  text-align: center;
+}
+
+.text-container p {
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+.text-container .highlight {
+  color: #D97652;
+}

@@ -1,0 +1,39 @@
+.location-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 68px;
+  gap: 20px;
+}
+
+.location-container > .location-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.location-container .location-text p {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.location-container .location-text span {
+  color: #606367;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.map-container {
+  width: 100%;
+  max-width: 1278px;
+  height: 100%;
+  max-height: 520px;
+  display: flex;
+  justify-content: center;
+}
+
+.map-container div {
+  width: 1278px;
+  height: 520px;
+}

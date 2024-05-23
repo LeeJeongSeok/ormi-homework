@@ -1,0 +1,33 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+  gap: 100px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.gallery-container .gallery-grid {
+  display: grid;
+  gap: 72px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery-container .gallery-grid .gallery-grid-img {
+  width: 378px;
+  height: 378px;
+  border-radius: 30px;
+}
+
+.gallery-container .gallery-text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+}
+
+.gallery-container .gallery-text p {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+}

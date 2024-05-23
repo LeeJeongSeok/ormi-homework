@@ -19,7 +19,7 @@ h1 {
   border-radius: 20px;
   text-align: center;
   position: relative;
-  background-image: url("img/background.png");
+  background-image: url("../../img/background.png");
 }
 
 .modal-content p {
