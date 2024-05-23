@@ -302,7 +302,8 @@ li {
 
 
 footer {
-  width: 70%;
+  width: 100%;
+  max-width: 1280px;
   padding-top: 45px;
   padding-bottom: 45px;
 }
