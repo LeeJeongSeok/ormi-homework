@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="test.css">
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=098b4b8ab433e97fed34faf5db2a9f76"></script>
+</head>
+<body style="position: relative">
+	<div id="app">
+		<header class="container">
+			<img src="img/logo.png" class="logo-img">
+			<ul>
+				<li>Home</li>
+				<li>About</li>
+				<li>Support</li>
+				<button class="download-button">Download</button>
+			</ul>
+		</header>
+		
+		<section class="header-container">
+			<article class="header-content">
+				<h1>Lorem Ipsum is simply<br> dummy text of the printing and</h1>
+				<p>Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text<br> ever since the 1500s, when an unknown.</p>
+				<button class="download-button">Download</button>
+			</article>
+			<img src="img/cat_1.png" alt="Heading Image" class="header-content-img">
+		</section>
+		
+		<section class="description-content">
+			<img src="img/cat_2.png" alt="Cat Image 1">
+			<div class="text-layout">
+				<h1>Lorem Ipsum is simply<br> dummy text of the printing<br> and dummy text</h1>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.</p>
+			</div>
+		</section>
+		
+		<section>
+			<article class="text-container">
+				<h1>dummy text of the printing and dummy</h1>
+				<p>Lorem Ipsum is simply <span class="highlight">dummy text</span> of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
+			</article>
+		</section>
+		
+		<section>
+			<article class="gallery-container">
+				<div class="gallery-grid">
+					<img src="img/cat_3.png" alt="Cat 1" class="gallery-grid-img">
+					<img src="img/cat_4.png" alt="Cat 2" class="gallery-grid-img">
+					<img src="img/cat_5.png" alt="Cat 3" class="gallery-grid-img">
+					<img src="img/cat_6.png" alt="Cat 4" class="gallery-grid-img">
+					<img src="img/cat_7.png" alt="Cat 5" class="gallery-grid-img">
+					<img src="img/cat_8.png" alt="Cat 6" class="gallery-grid-img">
+				</div>
+				
+				<div class="gallery-text">
+					<p>Continue exploring HODU</p>
+					<button class="download-button">
+						<span>Show more</span>
+					</button>
+				</div>
+			</article>
+		</section>
+		
+		<!-- location section -->
+		<section>
+			<article class="location-container">
+				<div class="location-text">
+					<p>Where you’ll be</p>
+					<span>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</span>
+				</div>
+				<div class="map-container">
+					<div id="map"></div>
+				</div>
+			</article>
+		</section>
+		
+		
+		<article class="subscribe-container">
+			<div class="subscribe-content">
+				<h2>Subscribe to our Blog post</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry<br>Lorem Ipsum has been the industry's standard dummy text</p>
+			</div>
+			<div class="subscribe-form">
+				<img src="img/mail.png" alt="mail image">
+				<input type="email" placeholder="Enter your e-mail address">
+				<button type="submit" class="subscribe-form-button">Subscribe</button>
+			</div>
+		</article>
+		
+		<img src="img/cat_9.png" alt="Cat 9" class="footer-img">
+		
+		<footer class="container">
+			<article class="footer-container">
+				<img src="img/logo.png" alt="HODU Logo" class="footer-logo">
+				
+				<div class="social-links">
+					<button><img src="img/icon-blog.png" class="icon-image" alt="블로그"></button>
+					<button><img src="img/icon-insta.png" class="icon-image" alt="인스타그램"></button>
+					<button><img src="img/icon-facebook.png" class="icon-image" alt="페이스북"></button>
+					<button><img src="img/icon-youtube.png" class="icon-image" alt="유튜브"></button>
+				</div>
+			</article>
+		</footer>
+	</div>
+	
+	<script>
+		var container = document.getElementById('map');
+		var options = {
+			center: new kakao.maps.LatLng(33.450701, 126.570667),
+			level: 3
+		};
+		
+		var map = new kakao.maps.Map(container, options);
+	</script>
+</body>
+</html>
