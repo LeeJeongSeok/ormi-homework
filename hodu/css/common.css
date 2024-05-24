@@ -11,6 +11,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #ffffff;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2E9D8;
 }
 
 .container {

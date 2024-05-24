@@ -23,27 +23,31 @@
 	
 	
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=098b4b8ab433e97fed34faf5db2a9f76"></script>
+	<script type="text/javascript" src="js/modal-script.js"></script>
 </head>
 <body>
 	<div id="app">
-		<header class="container">
-			<img src="img/logo.png" class="logo-img">
-			<ul>
-				<li>Home</li>
-				<li>About</li>
-				<li>Support</li>
-				<button class="download-button">Download</button>
-			</ul>
+		<header class="header">
+			<div class="container">
+				<img src="img/logo.png" class="logo-img" alt="로고 이미지">
+				<ul>
+					<li>Home</li>
+					<li>About</li>
+					<li>Support</li>
+					<button class="download-button">Download</button>
+				</ul>
+			</div>
+			
+			<section class="header-container">
+				<article class="header-content">
+					<h1>Lorem Ipsum is simply<br> dummy text of the printing and</h1>
+					<p>Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text<br> ever since the 1500s, when an unknown.</p>
+					<button class="download-button">Download</button>
+				</article>
+				<img src="img/cat_1.png" alt="Heading Image" class="header-content-img">
+			</section>
 		</header>
 		
-		<section class="header-container">
-			<article class="header-content">
-				<h1>Lorem Ipsum is simply<br> dummy text of the printing and</h1>
-				<p>Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text<br> ever since the 1500s, when an unknown.</p>
-				<button class="download-button">Download</button>
-			</article>
-			<img src="img/cat_1.png" alt="Heading Image" class="header-content-img">
-		</section>
 		
 		<section class="description-content">
 			<img src="img/cat_2.png" alt="Cat Image 1">
@@ -114,9 +118,16 @@
 								</div>
 								<input type="email" placeholder="Enter your e-mail address">
 								<div class="input-submit-button">
-									<button type="submit" class="download-button">
+									<button type="submit" class="download-button" id="summit-button">
 										<span>Subscribe</span>
 									</button>
+								</div>
+								
+								<div class="modal-content" id="modal" style="display: none">
+									<img src="img/cat_10.png" alt="Cat Image" class="modal-image">
+									<h1>Thank you!</h1>
+									<p>Lorem Ipsum is simply dummy text of the printing industry</p>
+									<button class="modal-button" id="modal-button">OK! I Love HODU</button>
 								</div>
 							</label>
 						</form>
@@ -141,13 +152,15 @@
 	</div>
 	
 	<script>
-		var container = document.getElementById('map');
-		var options = {
+		const container = document.getElementById('map');
+		const options = {
 			center: new kakao.maps.LatLng(33.450701, 126.570667),
 			level: 3
 		};
 		
-		var map = new kakao.maps.Map(container, options);
+		const map = new kakao.maps.Map(container, options);
+		
+		
 	</script>
 </body>
 </html>
