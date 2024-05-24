@@ -21,8 +21,6 @@
 	<link rel="stylesheet" href="css/modal/modal.css">
 	
 	
-	
-	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=098b4b8ab433e97fed34faf5db2a9f76"></script>
 	<script type="text/javascript" src="js/modal-script.js"></script>
 </head>
 <body>
@@ -77,7 +75,7 @@
 				
 				<div class="gallery-text">
 					<p>Continue exploring HODU</p>
-					<button class="download-button">
+					<button class="download-button" id="show-more-button">
 						<span>Show more</span>
 					</button>
 				</div>
@@ -123,6 +121,7 @@
 									</button>
 								</div>
 								
+								<div class="modal-background" id="modal-background" style="display: none"></div>
 								<div class="modal-content" id="modal" style="display: none">
 									<img src="img/cat_10.png" alt="Cat Image" class="modal-image">
 									<h1>Thank you!</h1>
@@ -151,6 +150,7 @@
 		</footer>
 	</div>
 	
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=098b4b8ab433e97fed34faf5db2a9f76"></script>
 	<script>
 		const container = document.getElementById('map');
 		const options = {
@@ -162,5 +162,7 @@
 		
 		
 	</script>
+	
+	<script type="text/javascript" src="js/show-more-script.js"></script>
 </body>
 </html>
