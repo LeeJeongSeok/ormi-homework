@@ -47,6 +47,8 @@
  ┃ ┣ 📂js  
  ┃ ┣ 📂test-factory
  ┃ ┣ 📜index.html
+ ┣ 📜README.md
+ ┗ 📜requirements.txt
 
 
 - 디자인 : 홍길동
