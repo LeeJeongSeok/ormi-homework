@@ -94,6 +94,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50px;
+  margin-left: 90%;
   border: 0;
   z-index: 2;
   background-image: url("../../img/keyboard_arrow_up-1.png");
