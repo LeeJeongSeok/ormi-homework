@@ -25,6 +25,6 @@ async function fetchImages(page){
 
 function makeImageList(datas){
   datas.forEach((data)=>{
-    listPic.insertAdjacentHTML('beforeend', `<img src="${data.download_url}" alt="" class="gallery-grid-img"></li>`);
+    listPic.insertAdjacentHTML('beforeend', `<img src="${data.download_url}" alt="" class="gallery-grid-img">`);
   });
 }
