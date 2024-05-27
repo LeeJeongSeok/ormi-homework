@@ -33,7 +33,6 @@
 
 ## 4. 프로젝트 구조와 와이어 프레임 / UI
 ### 4.1 프로젝트 구조
-- 해당 프로젝트에서 폴더 트리 잘 다듬어 사용하세요. 필요하다면 주석을 달아주세요. 
 📦ormi-homework  
  ┣ 📂hodu
  ┃ ┣ 📂css
@@ -49,14 +48,14 @@
  ┃ ┣ 📜index.html
  ┗ 📜README.md
 
-### 4.2 
+### 4.2 프로젝트 구조에 대한 설명
 
-- **hodu/css**: Contains all CSS files and folders for different sections of the website.
-- **hodu/img**: Contains image assets.
-- **hodu/js**: Contains JavaScript files.
-- **hodu/test-factory**: Contains test-related files.
-- **index.html**: The main HTML file for the project.
-- **README.md**: This file, containing the project structure and descriptions.
+- **hodu/css**: 각 섹션별로 css 파일
+- **hodu/img**: 레이아웃 구현에 필요한 이미지 파일
+- **hodu/js**: 모달창, show-more 버튼을 위한 JS 파일
+- **hodu/test-factory**: 테스트용 파일
+- **index.html**: 실제 디자인이 완성된 index 파일
+- **README.md**: 프로젝트 구조와 설명을 포함한 파일
 
 
 ### 4.3 와이어프레임
