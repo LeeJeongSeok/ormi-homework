@@ -49,8 +49,17 @@
  ┃ ┣ 📜index.html
  ┗ 📜README.md
 
+### 4.2 
 
-### 4.2 와이어프레임
+- **hodu/css**: Contains all CSS files and folders for different sections of the website.
+- **hodu/img**: Contains image assets.
+- **hodu/js**: Contains JavaScript files.
+- **hodu/test-factory**: Contains test-related files.
+- **index.html**: The main HTML file for the project.
+- **README.md**: This file, containing the project structure and descriptions.
+
+
+### 4.3 와이어프레임
 <img width="912" alt="스크린샷 2024-05-27 오후 1 21 51" src="https://github.com/LeeJeongSeok/ormi-homework/assets/13554850/28fa8500-9721-4e13-9f35-e7a88dc8fae7">
 
 
