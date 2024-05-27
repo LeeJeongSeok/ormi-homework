@@ -89,3 +89,16 @@
   top: -15px;
   right: 6px;
 }
+
+.scroll-top-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 0;
+  z-index: 2;
+  background-image: url("../../img/keyboard_arrow_up-1.png");
+}
+
+.scroll-top-btn:hover {
+  background-image: url("../../img/keyboard_arrow_up.png");
+}
