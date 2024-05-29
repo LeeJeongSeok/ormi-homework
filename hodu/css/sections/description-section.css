@@ -1,6 +1,6 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
 
-.description-container {
+.description-content {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -9,13 +9,13 @@
   gap: 110px;
 }
 
-.description-container img {
+.description-content img {
   width: 660px;
   height: 390px;
   border-radius: 30px;
 }
 
-.description-container .text-layout h1{
+.description-content .text-layout h1{
   font-family: Pretendard;
   color: #000000;
   font-weight: 700;
@@ -24,7 +24,7 @@
 
 }
 
-.description-container .text-layout p {
+.description-content .text-layout p {
   font-family: Pretendard;
   color: #000000;
   font-weight: 400;
